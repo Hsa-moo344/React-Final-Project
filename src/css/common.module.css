@@ -1,0 +1,134 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.NavigationContainer {
+  background-color: grey;
+  margin: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.NavigationContainer li {
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+}
+.NavigationContainer li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.NavigationContainer li a:hover {
+  color: brown;
+}
+.MainContext {
+  background-color: rgb(47, 47, 47);
+  padding-top: 2px;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-image: url(/src/Images/coding.jpg);
+}
+.MainContext h1 {
+  font-size: 46px;
+  color: white;
+}
+.MainContext h3 {
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.MainContext p {
+  color: white;
+  background-color: rgb(98, 96, 96);
+  width: 20%;
+  padding: 30px;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.MainIcons {
+  margin-top: 100px;
+  padding-right: 990px;
+  color: white;
+}
+
+.AboutMain {
+  text-align: center;
+  background-color: beige;
+  padding-top: 10px;
+}
+.CodingTeam {
+  text-align: center;
+  font-size: 15px;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 500px;
+  padding-top: 2px;
+}
+.WorkMain {
+  text-align: center;
+  height: 500px;
+  background-color: rgb(210, 206, 206);
+  padding-top: 2px;
+}
+.loginFooter {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  width: 50%;
+  height: 500px;
+  background-color: #eadbf0;
+}
+.loginFooter h1 {
+  text-align: center;
+}
+.loginFooter input {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  padding-left: 0px;
+}
+.loginFooter p {
+  text-align: center;
+}
+.loginFooter button {
+  background-color: rgb(103, 100, 100);
+  color: white;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  padding: 15px 100px 15px 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: blueviolet;
+  text-shadow: 2px 2px 4px #000000;
+}
+.loginFooter button:hover {
+  background-color: rgb(230, 237, 237);
+  animation-delay: 1s;
+
+  color: white;
+}
+.BodyText {
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: justify;
+}
+.Footer {
+  padding-top: 2px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #565454;
+  height: 400px;
+}
+.BodyFooter {
+  border: 2px dotted pink;
+  padding: 20px;
+}
