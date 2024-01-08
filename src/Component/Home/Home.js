@@ -234,8 +234,11 @@ const Home = () => {
       </div>
       <div>
         <h2>
-          This project was make and
-          <a href="">Open Source Code by </a>Hsa Moo Moo
+          This project was make
+          <a href="https://github.com/Hsa-moo344/React-Final-Project">
+            Open Source Code by{" "}
+          </a>
+          Hsa Moo Moo
         </h2>
       </div>
     </div>
