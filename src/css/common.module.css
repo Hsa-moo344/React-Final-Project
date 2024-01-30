@@ -3,7 +3,7 @@
 }
 
 .NavigationContainer {
-  background-color: grey;
+  background-color: rgb(210, 209, 209);
   margin: 0px;
   list-style-type: none;
   overflow: hidden;
@@ -19,7 +19,7 @@
 }
 .NavigationContainer li a {
   text-decoration: none;
-  color: white;
+  color: black;
   cursor: pointer;
   font-size: 18px;
 }
@@ -27,31 +27,39 @@
   color: brown;
 }
 .MainContext {
-  background-color: rgb(47, 47, 47);
+  background-color: rgb(249, 180, 180);
   padding-top: 2px;
   width: 100%;
   height: 500px;
   text-align: center;
-  background-image: url(/src/Images/coding.jpg);
 }
 .MainContext h1 {
   font-size: 46px;
-  color: white;
+  color: black;
 }
 .MainContext h3 {
-  color: white;
+  color: black;
   font-size: 20px;
   margin-top: 50px;
 }
-.MainContext p {
+.MainContext button {
   color: white;
-  background-color: rgb(98, 96, 96);
-  width: 20%;
-  padding: 30px;
+  background-color: rgb(163, 160, 160);
+  width: 25%;
+  padding: 25px;
   font-size: 18px;
   display: block;
   margin: auto;
   margin-top: 100px;
+  border-radius: 10%;
+}
+.MainContext button a {
+  text-decoration: none;
+}
+.MainContext button a:hover {
+  color: blue;
+  transition: 1ms ease-out;
+  cursor: pointer;
 }
 .MainIcons {
   margin-top: 100px;

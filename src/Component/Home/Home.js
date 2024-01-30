@@ -17,7 +17,9 @@ const Home = () => {
       <div className={ProjectCss.MainContext}>
         <h1>Start something that matters</h1>
         <h3>Stop wasting valuable time with projects that just isn't you</h3>
-        <p>Learn more and start today</p>
+        <button>
+          <a href="https://www.w3schools.com/">Learn more and start today</a>
+        </button>
         <div className={ProjectCss.MainIcons}>
           <FontAwesomeIcon icon={faEnvelope} />
         </div>
@@ -41,7 +43,7 @@ const Home = () => {
             </p>
           </Col>
           <Col sm={3}>
-            <img src={Image3} style={{ width: "250px", height: "150px" }} />
+            <img src={Image3} style={{ width: "275px", height: "150px" }} />
             <h4 style={{ color: "blue" }}> Passion</h4>
             <p className={ProjectCss.BodyText}>
               Passionate love and compassionate love are both important and tend
@@ -53,7 +55,7 @@ const Home = () => {
             </p>
           </Col>
           <Col sm={3}>
-            <img src={Image4} style={{ width: "250px", height: "150px" }} />
+            <img src={Image4} style={{ width: "275px", height: "150px" }} />
             <h4 style={{ color: "blue" }}> Diamond</h4>
             <p className={ProjectCss.BodyText}>
               Diamond is a solid form of the element carbon with its atoms
@@ -69,7 +71,7 @@ const Home = () => {
             </p>
           </Col>
           <Col sm={3}>
-            <img src={Image5} style={{ width: "250px", height: "150px" }} />
+            <img src={Image5} style={{ width: "275px", height: "150px" }} />
             <h4 style={{ color: "blue" }}>Support</h4>
             <p className={ProjectCss.BodyText}>
               The Home Office had set up its own Research Unit in 1957, in
@@ -91,14 +93,14 @@ const Home = () => {
         <p>This is our team</p>
         <Row>
           <Col sml={3}>
-            <img src={Team} style={{ width: "220px", height: "180px" }} />
+            <img src={Team} style={{ width: "200px", height: "180px" }} />
             <p>Coding Team</p>
             <p>Take photo by John Doe</p>
             <p
               style={{
                 backgroundColor: "grey",
                 padding: "10px",
-                width: "100%",
+                width: "80%",
               }}
             >
               <FontAwesomeIcon
@@ -109,14 +111,14 @@ const Home = () => {
             </p>
           </Col>
           <Col sml={3}>
-            <img src={Team} style={{ width: "220px", height: "180px" }} />
+            <img src={Team} style={{ width: "200px", height: "180px" }} />
             <p>Coding Team</p>
             <p>Take photo by John Doe</p>
             <p
               style={{
                 backgroundColor: "grey",
                 padding: "10px",
-                width: "100%",
+                width: "80%",
               }}
             >
               <FontAwesomeIcon
@@ -134,7 +136,7 @@ const Home = () => {
               style={{
                 backgroundColor: "grey",
                 padding: "10px",
-                width: "100%",
+                width: "80%",
               }}
             >
               <FontAwesomeIcon
@@ -152,7 +154,7 @@ const Home = () => {
               style={{
                 backgroundColor: "grey",
                 padding: "10px",
-                width: "100%",
+                width: "80%",
               }}
             >
               <FontAwesomeIcon
@@ -166,17 +168,27 @@ const Home = () => {
       </div>
       {/* Work session */}
       <div className={ProjectCss.WorkMain}>
-        <h3>Coding skills</h3>
+        <h3>Working experience</h3>
         <Row>
           <Col sm={6}>
             <p>
-              Coding in a team: How you collaborate with other developers to
-              build better software and get better results. You will learn why
-              it is worthwhile to collaborate with other software developers and
-              how you can improve your own skills in a targeted manner.
+              I started to learn coding it was only one year already. I just
+              learn like beigner to learn HTML, CSS and basic Javascript.
+            </p>
+
+            <h4>Frontend developer (Learning from SheCodes)</h4>
+            <p>
+              🗓️ Start learning from Feburary 2023 to <strong>present</strong>
+            </p>
+            <br />
+            <br />
+            <h4>React js (Learning from partner organization)</h4>
+            <p>
+              🗓️ Start learning from November 2022 to <strong>present</strong>
             </p>
           </Col>
           <Col sm={6}>
+            <h4>Continues to learn extra course</h4>
             <p>📷 Web Design</p>
             <p>🙅‍♂️ Phtotography</p>
             <p>🕹️ Photoshop</p>
